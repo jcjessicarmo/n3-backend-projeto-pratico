@@ -13,3 +13,19 @@ exports.get = (req, res) => {
         res.status(200).send(tarefas.find(tarefa => tarefa.id == id))
         
       }
+
+
+// ADD COLABORADOR
+
+exports.getByName = (req, res) => {
+    const nomeColaborador = req.params.nomeColaborador
+    console.log(nomeColaborador)
+    const nome = tarefas.filter(tarefa => tarefa.nomeColaborador == nomeColaborador)
+    if(nome.length == 0){
+        
+        res.sendStatus(404)
+  }else{
+          
+  res.status(200).send(nome)
+        }
+}
