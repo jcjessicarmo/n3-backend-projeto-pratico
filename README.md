@@ -1,8 +1,8 @@
 # n3-backend-projeto-pratico
 - Acompanhamento do processo do projeto 
 
-[x] Apresentação do projeto;
-[x] Setup das dependencias;
+-[x] Apresentação do projeto;
+- [x] Setup das dependencias;
 [x] Add o arquivo .gitignore;
 [x] Organização da arquitetura;
 
