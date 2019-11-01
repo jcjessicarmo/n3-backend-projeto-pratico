@@ -7,7 +7,7 @@ exports.get = (req, res) => {
     })
     res.status(200).send(tarefaslista)
 }
-
+ 
     exports.getById = (req, res) => {
         const id = req.params.id
         res.status(200).send(tarefas.find(tarefa => tarefa.id == id))
@@ -17,7 +17,7 @@ exports.get = (req, res) => {
 
 // ADD COLABORADOR
 
-exports.getByName = (req, res) => {
+ exports.getByName = (req, res) => {
     const nomeColaborador = req.params.nomeColaborador
     console.log(nomeColaborador)
     const nome = tarefas.filter(tarefa => tarefa.nomeColaborador == nomeColaborador)
@@ -28,4 +28,15 @@ exports.getByName = (req, res) => {
           
   res.status(200).send(nome)
         }
+}
+
+// ADD CONCLUSAO
+ 
+exports.getByConcluido = (req, res) => {
+    const concluidos = tarefas.filter(tarefa => tarefa.conclusao === "true")
+
+
+    console.log(concluidos)
+         res.status(200).send(concluidos)
+
 }

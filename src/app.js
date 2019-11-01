@@ -9,7 +9,7 @@ app.use(function(req, res, next) {
     res.header(
         "Access-Control-Allow-Healders",
         "Origin, X-Requested-with, Content-Type, Accept")
-        next()
+        next()      
 });
 
 app.use("/", index)
