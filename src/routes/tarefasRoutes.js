@@ -8,4 +8,4 @@ router.get("/:id", controller.getById)
 router.get("/colaborador/:nomeColaborador", controller.getByName)
 
 
-module.exports = router
+module.exports = router 
