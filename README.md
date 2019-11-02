@@ -16,14 +16,24 @@
 - [x] POSTMAN
 - [Download POSTMAN](https://www.getpostman.com/)
 
--[x] NODEMON
+- [x] NODEMON
 - [nodemon](https://nodemon.io/)
+
+#### FRAMEWORK
+- [x]Express
+- [Express](https://expressjs.com/pt-br/)
 
 #### LINGUAGEM UTILIZADA
 - [x] Javascript
+- [Javascript](https://www.javascript.com/)
 
 #### DESCRIÇÃO DO PROJETO
 - [x] No projeto presente foi utilizado a linguagem Javascript, e as tecnologias e ferramentas utilizadas foram Node.js, Git, GitHub, Postman.
 
-#### ENDPOINTS(ROTAS
-- [x]
+#### ENDPOINTS(ROTAS)
+- [x] Exibe todos os registros do Json
+- [x] dataInclusao - (Exibe as tarefas ordenadas por data de inclusão)
+- [x] concluido - (Exibe as tarefas com status concluído)
+- [x] :id - (Exibe um registro filtrado por ID)
+- [x] colaborador - (Exibe um registro filtrado por nome do colaborador)
+
