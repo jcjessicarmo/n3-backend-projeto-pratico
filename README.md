@@ -20,7 +20,7 @@
 - [nodemon](https://nodemon.io/)
 
 #### FRAMEWORK
-- [x]Express
+- [x] Express
 - [Express](https://expressjs.com/pt-br/)
 
 #### LINGUAGEM UTILIZADA
