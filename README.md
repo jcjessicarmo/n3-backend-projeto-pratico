@@ -8,23 +8,22 @@
 - [Instalação do Node.js](https://nodejs.org/en/)
 - [O que é Node.js](http://nodebr.com/o-que-e-node-js/)
 
--[x] Git & GitHub
+- [x] Git & GitHub
+- [Git & GitHub - O que é? Por que? Como funciona?](https://blog.rocketseat.com.br/iniciando-com-git-github/)
+- [Download Git](https://git-scm.com/downloads)
+- [Download GitHub](https://desktop.github.com/)
 
--  #### LINGUAGENS UTILIZADAS
-- [x] 
+- [x] POSTMAN
+- [Download POSTMAN](https://www.getpostman.com/)
 
+-[x] NODEMON
+- [nodemon](https://nodemon.io/)
 
-- [x] Apresentação do projeto;
-- [x] Setup das dependencias;
-- [x] Add o arquivo .gitignore;
-- [x] Organização da arquitetura;
+#### LINGUAGEM UTILIZADA
+- [x] Javascript
 
-- [x] Criar o servidor;
-- [x] Rota;
-- [x] Controller;
-- [x] Model;
-- [x] Recap da ordem de fazer as coisas;
+#### DESCRIÇÃO DO PROJETO
+- [x] No projeto presente foi utilizado a linguagem Javascript, e as tecnologias e ferramentas utilizadas foram Node.js, Git, GitHub, Postman.
 
-- [x] Retornando as listas com todas as tarefas;
-- [x] Retornando uma tarefa específica quando eu passo o ID da tarefa desejada;
-- [x] Retornando a lista de tarefas conclusão;
+#### ENDPOINTS(ROTAS
+- [x]

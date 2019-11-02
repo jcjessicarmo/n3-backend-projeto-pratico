@@ -4,7 +4,8 @@
     "dataInclusao": "12/08/2019",
     "conclusao": "false",
     "descricao": "Tarefa 1 - Agora vai!",
-    "nomeColaborador": "Viviane"
+    "nomeColaborador": "Viviane",
+    "dataConclusao": "13/09/2020"
 },
 
 {
@@ -12,7 +13,8 @@
     "dataInclusao": "12/10/2019",
     "conclusao": "true",
     "descricao": "Tarefa 2 - Vai com Fé!",
-    "nomeColaborador": "Desiree"
+    "nomeColaborador": "Desiree",
+    "dataConclusao": "13/11/2020"
 }, 
 
 {
@@ -20,7 +22,8 @@
     "dataInclusao": "01/10/2019",
     "conclusao": "false",
     "descricao": "Tarefa 3 - Confia!",
-    "nomeColaborador": "Evelyn"
+    "nomeColaborador": "Evelyn",
+    "dataConclusao": "02/11/2020"
 },
 
 {
@@ -28,6 +31,7 @@
     "dataInclusao": "02/09/2019",
     "conclusao": "true",
     "descricao": "Tarefa Final - SUCESSO! GLÓRIA!! T.E.R.M.I.N.A.D.O",
-    "nomeColaborador": "Jéssica"
+    "nomeColaborador": "Jéssica",
+    "dataConclusao": "13/09/2020"
 }
 ]
