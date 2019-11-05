@@ -59,4 +59,3 @@ const diferenceDias = (dataInicial, dataFinal) => {
 }
 
 // CONTINUAR DATAAAAAA
-const getTempoTarefa = (function(tarefa: any):)
