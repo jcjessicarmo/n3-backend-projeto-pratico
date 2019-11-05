@@ -40,3 +40,23 @@ exports.getByConcluido = (req, res) => {
          res.status(200).send(concluidos)
 
 }
+
+// DATA
+
+const conversonData = (dataString) => {
+    const dia = dataString.split("/")[0];
+    const mes = dataString.split("/")[1] -1;
+    const ano = dataString.split("/")[2];
+    
+    const dataFormatada = new Date (ano, mes, dia)
+    return dataFormatada
+}
+
+const diferenceDias = (dataInicial, dataFinal) => {
+    const diferencaTempo = Math.abs(dataFinal - dataInicial)
+    const diferencaDias = Math.ceil(diferencaTempo / (1000*60*60*24))
+    return diferencaDias
+}
+
+// CONTINUAR DATAAAAAA
+const getTempoTarefa = (function(tarefa: any):)
